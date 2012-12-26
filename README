@@ -4,6 +4,11 @@ NAME
 
 SYNOPSIS
         dzil new -P Author::Caelum Your::Dist::Name
+        cd Your-Dist-Name
+        # crate new github repo
+        git init
+        git remote add origin git@github.com:username/your-dist-name.git
+        git add * .gitignore
 
 DESCRIPTION
     This is a general purpose minting profile for

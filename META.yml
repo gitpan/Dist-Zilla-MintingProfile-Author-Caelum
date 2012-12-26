@@ -30,5 +30,5 @@ resources:
   homepage: http://metacpan.org/release/Dist-Zilla-MintingProfile-Author-Caelum
   license: http://dev.perl.org/licenses/
   repository: git://github.com/avar/dist-zilla-mintingprofile-author-caelum.git
-version: 0.01
+version: 0.02
 x_authority: cpan:RKITOVER
