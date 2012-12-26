@@ -1,0 +1,17 @@
+NAME
+    Dist::Zilla::MintingProfile::Author::Caelum - Basic Minting Profile for
+    @AVAR
+
+SYNOPSIS
+        dzil new -P Author::Caelum Your::Dist::Name
+
+DESCRIPTION
+    This is a general purpose minting profile for
+    Dist::Zilla::PluginBundle::AVAR.
+
+SEE ALSO
+    *   Dist::Zilla::PluginBundle::AVAR
+
+AUTHOR
+    Rafael Kitover <rkitover@cpan.org>
+

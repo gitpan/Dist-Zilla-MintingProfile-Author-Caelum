@@ -1,0 +1,34 @@
+---
+abstract: 'Basic Minting Profile for @AVAR'
+author:
+  - 'Rafael Kitover <rkitover@cpan.org>'
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+  File::ShareDir::Install: 0.03
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Dist-Zilla-MintingProfile-Author-Caelum
+no_index: {}
+requires:
+  Dist::Zilla::PluginBundle::AVAR: 0
+  Dist::Zilla::Role::MintingProfile::ShareDir: 0
+  Moose: 0
+  perl: 5.008001
+  strict: 0
+  utf8: 0
+  warnings: 0
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-MintingProfile-Author-Caelum
+  homepage: http://metacpan.org/release/Dist-Zilla-MintingProfile-Author-Caelum
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/avar/dist-zilla-mintingprofile-author-caelum.git
+version: 0.01
+x_authority: cpan:RKITOVER
