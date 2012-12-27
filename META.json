@@ -4,7 +4,7 @@
       "Rafael Kitover <rkitover@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300029, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -59,11 +59,11 @@
       ],
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/avar/dist-zilla-mintingprofile-author-caelum.git",
-         "web" : "http://github.com/avar/dist-zilla-mintingprofile-author-caelum"
+         "url" : "git://github.com/rkitover/dist-zilla-mintingprofile-author-caelum.git",
+         "web" : "http://github.com/rkitover/dist-zilla-mintingprofile-author-caelum"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_authority" : "cpan:RKITOVER"
 }
 

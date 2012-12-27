@@ -4,7 +4,7 @@ BEGIN {
   $Dist::Zilla::MintingProfile::Author::Caelum::AUTHORITY = 'cpan:RKITOVER';
 }
 {
-  $Dist::Zilla::MintingProfile::Author::Caelum::VERSION = '0.03';
+  $Dist::Zilla::MintingProfile::Author::Caelum::VERSION = '0.04';
 }
 
 use strict;
