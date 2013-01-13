@@ -29,7 +29,7 @@
       "runtime" : {
          "requires" : {
             "Dist::Zilla::Plugin::Git::Init" : "0",
-            "Dist::Zilla::Plugin::GitHub::Create" : "0",
+            "Dist::Zilla::Plugin::GitHub::Create" : "0.30",
             "Dist::Zilla::PluginBundle::AVAR" : "0",
             "Dist::Zilla::Role::MintingProfile::ShareDir" : "0",
             "Moose" : "0",
@@ -63,7 +63,7 @@
          "web" : "http://github.com/rkitover/dist-zilla-mintingprofile-author-caelum"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_authority" : "cpan:RKITOVER"
 }
 

@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Dist::Zilla::MintingProfile::Author::Caelum",
   "PREREQ_PM" => {
     "Dist::Zilla::Plugin::Git::Init" => 0,
-    "Dist::Zilla::Plugin::GitHub::Create" => 0,
+    "Dist::Zilla::Plugin::GitHub::Create" => "0.30",
     "Dist::Zilla::PluginBundle::AVAR" => 0,
     "Dist::Zilla::Role::MintingProfile::ShareDir" => 0,
     "Moose" => 0,
@@ -36,7 +36,7 @@ my %WriteMakefileArgs = (
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }

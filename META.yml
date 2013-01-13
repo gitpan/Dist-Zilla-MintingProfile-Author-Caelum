@@ -19,7 +19,7 @@ name: Dist-Zilla-MintingProfile-Author-Caelum
 no_index: {}
 requires:
   Dist::Zilla::Plugin::Git::Init: 0
-  Dist::Zilla::Plugin::GitHub::Create: 0
+  Dist::Zilla::Plugin::GitHub::Create: 0.30
   Dist::Zilla::PluginBundle::AVAR: 0
   Dist::Zilla::Role::MintingProfile::ShareDir: 0
   Moose: 0
@@ -32,5 +32,5 @@ resources:
   homepage: http://metacpan.org/release/Dist-Zilla-MintingProfile-Author-Caelum
   license: http://dev.perl.org/licenses/
   repository: git://github.com/rkitover/dist-zilla-mintingprofile-author-caelum.git
-version: 0.04
+version: 0.05
 x_authority: cpan:RKITOVER

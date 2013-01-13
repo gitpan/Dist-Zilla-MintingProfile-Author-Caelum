@@ -1,5 +1,8 @@
 Revision history for Dist::Zilla::MintingProfile::Author::Caelum
 
+0.05 2013-01-13 13:16:36
+    - lowercase github repo name (now uses @AVAR defaults for github repo)
+
 0.04 2012-12-27 00:39:06
     - generate correct meta repo links for GitHub::Create
     - fix meta repo links for this dist itself
