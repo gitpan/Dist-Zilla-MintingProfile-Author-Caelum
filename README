@@ -5,8 +5,6 @@ NAME
 SYNOPSIS
         dzil setup
 
-        git config --global push.default simple # if you have git >= 1.8
-
         git config --global github.user GitHubLoginName
         git config --global github.password GitHubPassword
 
@@ -15,8 +13,6 @@ SYNOPSIS
         cd Your-Dist-Name
 
         # edit stuff and commit
-
-        git push origin master -u # only for git < 1.8
 
         dzil release
 
