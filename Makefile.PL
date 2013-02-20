@@ -30,14 +30,14 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::Plugin::Git::Init" => 0,
     "Dist::Zilla::Plugin::Git::PushInitial" => 0,
     "Dist::Zilla::Plugin::GitHub::Create" => "0.30",
-    "Dist::Zilla::PluginBundle::AVAR" => 0,
+    "Dist::Zilla::PluginBundle::AVAR" => "0.28",
     "Dist::Zilla::Role::MintingProfile::ShareDir" => 0,
     "Moose" => 0,
     "strict" => 0,
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.06",
+  "VERSION" => "0.07",
   "test" => {
     "TESTS" => "t/*.t"
   }

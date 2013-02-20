@@ -4,7 +4,7 @@ BEGIN {
   $Dist::Zilla::MintingProfile::Author::Caelum::AUTHORITY = 'cpan:RKITOVER';
 }
 {
-  $Dist::Zilla::MintingProfile::Author::Caelum::VERSION = '0.06';
+  $Dist::Zilla::MintingProfile::Author::Caelum::VERSION = '0.07';
 }
 
 use strict;
@@ -12,7 +12,7 @@ use warnings;
 use 5.008001;
 
 use Moose;
-use Dist::Zilla::PluginBundle::AVAR ();
+use Dist::Zilla::PluginBundle::AVAR 0.28 ();
 use Dist::Zilla::Plugin::Git::Init ();
 use Dist::Zilla::Plugin::GitHub::Create 0.30 ();
 use Dist::Zilla::Plugin::Git::PushInitial ();
@@ -47,6 +47,14 @@ L<Dist::Zilla::PluginBundle::AVAR>.
 
 It will set up a git repo for you with some boilerplate and prompt you if you
 want to create a new L<GitHub|github.com> repo for it.
+
+It creates a basic module for you. It does not use any L<Pod::Weaver> stuff.
+
+It sets up dzil to do all the tagging/versioning/pushing for you (see
+C<@AVAR|Dist::Zilla::PluginBundle::AVAR> for more details.)
+
+When you do a C<dzil release>, your module will also be installed with C<cpanm
+.> by default.
 
 =head1 SEE ALSO
 
