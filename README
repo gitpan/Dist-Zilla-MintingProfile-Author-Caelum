@@ -27,7 +27,7 @@ DESCRIPTION
     stuff.
 
     It sets up dzil to do all the tagging/versioning/pushing for you (see
-    "@AVAR|Dist::Zilla::PluginBundle::AVAR" for more details.)
+    @AVAR for more details.)
 
     When you do a "dzil release", your module will also be installed with
     "cpanm ." by default.

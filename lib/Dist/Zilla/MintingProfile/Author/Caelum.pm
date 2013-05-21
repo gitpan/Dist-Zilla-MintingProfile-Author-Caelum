@@ -4,7 +4,7 @@ BEGIN {
   $Dist::Zilla::MintingProfile::Author::Caelum::AUTHORITY = 'cpan:RKITOVER';
 }
 {
-  $Dist::Zilla::MintingProfile::Author::Caelum::VERSION = '0.07';
+  $Dist::Zilla::MintingProfile::Author::Caelum::VERSION = '0.08';
 }
 
 use strict;
@@ -51,7 +51,7 @@ want to create a new L<GitHub|github.com> repo for it.
 It creates a basic module for you. It does not use any L<Pod::Weaver> stuff.
 
 It sets up dzil to do all the tagging/versioning/pushing for you (see
-C<@AVAR|Dist::Zilla::PluginBundle::AVAR> for more details.)
+L<@AVAR|Dist::Zilla::PluginBundle::AVAR> for more details.)
 
 When you do a C<dzil release>, your module will also be installed with C<cpanm
 .> by default.

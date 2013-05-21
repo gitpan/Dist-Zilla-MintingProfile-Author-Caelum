@@ -10,7 +10,7 @@ configure_requires:
   ExtUtils::MakeMaker: 6.30
   File::ShareDir::Install: 0.03
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300029, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -33,5 +33,5 @@ resources:
   homepage: http://metacpan.org/release/Dist-Zilla-MintingProfile-Author-Caelum
   license: http://dev.perl.org/licenses/
   repository: git://github.com/rkitover/dist-zilla-mintingprofile-author-caelum.git
-version: 0.07
+version: 0.08
 x_authority: cpan:RKITOVER
